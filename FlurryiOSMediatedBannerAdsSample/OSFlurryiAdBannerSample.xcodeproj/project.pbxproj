@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BD4A69A175D3AC700411866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A699175D3AC700411866 /* UIKit.framework */; };
+		5BD4A69C175D3AC700411866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A69B175D3AC700411866 /* Foundation.framework */; };
+		5BD4A69E175D3AC700411866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A69D175D3AC700411866 /* CoreGraphics.framework */; };
+		5BD4A6A4175D3AC700411866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6A2175D3AC700411866 /* InfoPlist.strings */; };
+		5BD4A6A6175D3AC700411866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4A6A5175D3AC700411866 /* main.m */; };
+		5BD4A6AA175D3AC700411866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4A6A9175D3AC700411866 /* AppDelegate.m */; };
+		5BD4A6AC175D3AC700411866 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6AB175D3AC700411866 /* Default.png */; };
+		5BD4A6AE175D3AC700411866 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6AD175D3AC700411866 /* Default@2x.png */; };
+		5BD4A6B0175D3AC700411866 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6AF175D3AC700411866 /* Default-568h@2x.png */; };
+		5BD4A6B3175D3AC700411866 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6B1175D3AC700411866 /* MainStoryboard_iPhone.storyboard */; };
+		5BD4A6B6175D3AC800411866 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD4A6B4175D3AC800411866 /* MainStoryboard_iPad.storyboard */; };
+		5BD4A6B9175D3AC800411866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD4A6B8175D3AC800411866 /* ViewController.m */; };
+		5BD4A6C6175D3BC300411866 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6C5175D3BC300411866 /* iAd.framework */; };
+		5BD4A6C8175D3BCB00411866 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6C7175D3BCB00411866 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5BD4A6CA175D3BD500411866 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6C9175D3BD500411866 /* SystemConfiguration.framework */; };
+		5BD4A6CC175D3BDF00411866 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6CB175D3BDF00411866 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5BD4A6CE175D3BF300411866 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6CD175D3BF300411866 /* MediaPlayer.framework */; };
+		5BD4A6D8175D3CC000411866 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6D3175D3CC000411866 /* libFlurry.a */; };
+		5BD4A6D9175D3CC000411866 /* libFlurryAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6D7175D3CC000411866 /* libFlurryAds.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BD4A696175D3AC700411866 /* OSFlurryiAdBannerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSFlurryiAdBannerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD4A699175D3AC700411866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BD4A69B175D3AC700411866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BD4A69D175D3AC700411866 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BD4A6A1175D3AC700411866 /* OSFlurryiAdBannerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSFlurryiAdBannerSample-Info.plist"; sourceTree = "<group>"; };
+		5BD4A6A3175D3AC700411866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BD4A6A5175D3AC700411866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BD4A6A7175D3AC700411866 /* OSFlurryiAdBannerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSFlurryiAdBannerSample-Prefix.pch"; sourceTree = "<group>"; };
+		5BD4A6A8175D3AC700411866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BD4A6A9175D3AC700411866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BD4A6AB175D3AC700411866 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5BD4A6AD175D3AC700411866 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BD4A6AF175D3AC700411866 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BD4A6B2175D3AC700411866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5BD4A6B5175D3AC800411866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5BD4A6B7175D3AC800411866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BD4A6B8175D3AC800411866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BD4A6C5175D3BC300411866 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5BD4A6C7175D3BCB00411866 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5BD4A6C9175D3BD500411866 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5BD4A6CB175D3BDF00411866 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5BD4A6CD175D3BF300411866 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5BD4A6D2175D3CC000411866 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		5BD4A6D3175D3CC000411866 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		5BD4A6D5175D3CC000411866 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		5BD4A6D6175D3CC000411866 /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		5BD4A6D7175D3CC000411866 /* libFlurryAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD4A693175D3AC700411866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4A6CE175D3BF300411866 /* MediaPlayer.framework in Frameworks */,
+				5BD4A6CC175D3BDF00411866 /* StoreKit.framework in Frameworks */,
+				5BD4A6CA175D3BD500411866 /* SystemConfiguration.framework in Frameworks */,
+				5BD4A6C8175D3BCB00411866 /* AdSupport.framework in Frameworks */,
+				5BD4A6C6175D3BC300411866 /* iAd.framework in Frameworks */,
+				5BD4A69A175D3AC700411866 /* UIKit.framework in Frameworks */,
+				5BD4A69C175D3AC700411866 /* Foundation.framework in Frameworks */,
+				5BD4A69E175D3AC700411866 /* CoreGraphics.framework in Frameworks */,
+				5BD4A6D8175D3CC000411866 /* libFlurry.a in Frameworks */,
+				5BD4A6D9175D3CC000411866 /* libFlurryAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BD4A68D175D3AC700411866 = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6D1175D3CC000411866 /* Flurry */,
+				5BD4A6D4175D3CC000411866 /* FlurryAds */,
+				5BD4A69F175D3AC700411866 /* OSFlurryiAdBannerSample */,
+				5BD4A698175D3AC700411866 /* Frameworks */,
+				5BD4A697175D3AC700411866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BD4A697175D3AC700411866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A696175D3AC700411866 /* OSFlurryiAdBannerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD4A698175D3AC700411866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6CD175D3BF300411866 /* MediaPlayer.framework */,
+				5BD4A6CB175D3BDF00411866 /* StoreKit.framework */,
+				5BD4A6C9175D3BD500411866 /* SystemConfiguration.framework */,
+				5BD4A6C7175D3BCB00411866 /* AdSupport.framework */,
+				5BD4A6C5175D3BC300411866 /* iAd.framework */,
+				5BD4A699175D3AC700411866 /* UIKit.framework */,
+				5BD4A69B175D3AC700411866 /* Foundation.framework */,
+				5BD4A69D175D3AC700411866 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BD4A69F175D3AC700411866 /* OSFlurryiAdBannerSample */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6A8175D3AC700411866 /* AppDelegate.h */,
+				5BD4A6A9175D3AC700411866 /* AppDelegate.m */,
+				5BD4A6B1175D3AC700411866 /* MainStoryboard_iPhone.storyboard */,
+				5BD4A6B4175D3AC800411866 /* MainStoryboard_iPad.storyboard */,
+				5BD4A6B7175D3AC800411866 /* ViewController.h */,
+				5BD4A6B8175D3AC800411866 /* ViewController.m */,
+				5BD4A6A0175D3AC700411866 /* Supporting Files */,
+			);
+			name = OSFlurryiAdBannerSample;
+			path = FlurryiOSMediatedBannerAdsSample;
+			sourceTree = "<group>";
+		};
+		5BD4A6A0175D3AC700411866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6A1175D3AC700411866 /* OSFlurryiAdBannerSample-Info.plist */,
+				5BD4A6A2175D3AC700411866 /* InfoPlist.strings */,
+				5BD4A6A5175D3AC700411866 /* main.m */,
+				5BD4A6A7175D3AC700411866 /* OSFlurryiAdBannerSample-Prefix.pch */,
+				5BD4A6AB175D3AC700411866 /* Default.png */,
+				5BD4A6AD175D3AC700411866 /* Default@2x.png */,
+				5BD4A6AF175D3AC700411866 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BD4A6D1175D3CC000411866 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6D2175D3CC000411866 /* Flurry.h */,
+				5BD4A6D3175D3CC000411866 /* libFlurry.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		5BD4A6D4175D3CC000411866 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4A6D5175D3CC000411866 /* FlurryAdDelegate.h */,
+				5BD4A6D6175D3CC000411866 /* FlurryAds.h */,
+				5BD4A6D7175D3CC000411866 /* libFlurryAds.a */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BD4A695175D3AC700411866 /* OSFlurryiAdBannerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD4A6BC175D3AC800411866 /* Build configuration list for PBXNativeTarget "OSFlurryiAdBannerSample" */;
+			buildPhases = (
+				5BD4A692175D3AC700411866 /* Sources */,
+				5BD4A693175D3AC700411866 /* Frameworks */,
+				5BD4A694175D3AC700411866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSFlurryiAdBannerSample;
+			productName = FlurryiOSMediatedBannerAdsSample;
+			productReference = 5BD4A696175D3AC700411866 /* OSFlurryiAdBannerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BD4A68E175D3AC700411866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Flurry;
+			};
+			buildConfigurationList = 5BD4A691175D3AC700411866 /* Build configuration list for PBXProject "OSFlurryiAdBannerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BD4A68D175D3AC700411866;
+			productRefGroup = 5BD4A697175D3AC700411866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BD4A695175D3AC700411866 /* OSFlurryiAdBannerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BD4A694175D3AC700411866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4A6A4175D3AC700411866 /* InfoPlist.strings in Resources */,
+				5BD4A6AC175D3AC700411866 /* Default.png in Resources */,
+				5BD4A6AE175D3AC700411866 /* Default@2x.png in Resources */,
+				5BD4A6B0175D3AC700411866 /* Default-568h@2x.png in Resources */,
+				5BD4A6B3175D3AC700411866 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5BD4A6B6175D3AC800411866 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD4A692175D3AC700411866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD4A6A6175D3AC700411866 /* main.m in Sources */,
+				5BD4A6AA175D3AC700411866 /* AppDelegate.m in Sources */,
+				5BD4A6B9175D3AC800411866 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BD4A6A2175D3AC700411866 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD4A6A3175D3AC700411866 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BD4A6B1175D3AC700411866 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD4A6B2175D3AC700411866 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD4A6B4175D3AC800411866 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD4A6B5175D3AC800411866 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BD4A6BA175D3AC800411866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BD4A6BB175D3AC800411866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD4A6BD175D3AC800411866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlurryiOSMediatedBannerAdsSample/OSFlurryiAdBannerSample-Prefix.pch";
+				INFOPLIST_FILE = "FlurryiOSMediatedBannerAdsSample/OSFlurryiAdBannerSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryiOSMediatedBannerAdsSample/FlurryAds\"",
+					"\"$(SRCROOT)/FlurryiOSMediatedBannerAdsSample/Flurry\"",
+					"\"$(SRCROOT)/Flurry\"",
+					"\"$(SRCROOT)/FlurryAds\"",
+				);
+				PRODUCT_NAME = OSFlurryiAdBannerSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BD4A6BE175D3AC800411866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlurryiOSMediatedBannerAdsSample/OSFlurryiAdBannerSample-Prefix.pch";
+				INFOPLIST_FILE = "FlurryiOSMediatedBannerAdsSample/OSFlurryiAdBannerSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryiOSMediatedBannerAdsSample/FlurryAds\"",
+					"\"$(SRCROOT)/FlurryiOSMediatedBannerAdsSample/Flurry\"",
+					"\"$(SRCROOT)/Flurry\"",
+					"\"$(SRCROOT)/FlurryAds\"",
+				);
+				PRODUCT_NAME = OSFlurryiAdBannerSample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BD4A691175D3AC700411866 /* Build configuration list for PBXProject "OSFlurryiAdBannerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD4A6BA175D3AC800411866 /* Debug */,
+				5BD4A6BB175D3AC800411866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD4A6BC175D3AC800411866 /* Build configuration list for PBXNativeTarget "OSFlurryiAdBannerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD4A6BD175D3AC800411866 /* Debug */,
+				5BD4A6BE175D3AC800411866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BD4A68E175D3AC700411866 /* Project object */;
+}
