@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B921F5C17B59E9300779EF0 /* libFlurry_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B921F5B17B59E9300779EF0 /* libFlurry_4.2.3.a */; };
+		5B921F5E17B59EA200779EF0 /* libFlurryAds_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B921F5D17B59EA200779EF0 /* libFlurryAds_4.2.3.a */; };
+		5B921F6017B59EB000779EF0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B921F5F17B59EAF00779EF0 /* Security.framework */; };
 		5BD4A69A175D3AC700411866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A699175D3AC700411866 /* UIKit.framework */; };
 		5BD4A69C175D3AC700411866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A69B175D3AC700411866 /* Foundation.framework */; };
 		5BD4A69E175D3AC700411866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A69D175D3AC700411866 /* CoreGraphics.framework */; };
@@ -24,11 +27,12 @@
 		5BD4A6CA175D3BD500411866 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6C9175D3BD500411866 /* SystemConfiguration.framework */; };
 		5BD4A6CC175D3BDF00411866 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6CB175D3BDF00411866 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5BD4A6CE175D3BF300411866 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6CD175D3BF300411866 /* MediaPlayer.framework */; };
-		5BD4A6D8175D3CC000411866 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6D3175D3CC000411866 /* libFlurry.a */; };
-		5BD4A6D9175D3CC000411866 /* libFlurryAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD4A6D7175D3CC000411866 /* libFlurryAds.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B921F5B17B59E9300779EF0 /* libFlurry_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.3.a; sourceTree = "<group>"; };
+		5B921F5D17B59EA200779EF0 /* libFlurryAds_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_4.2.3.a; sourceTree = "<group>"; };
+		5B921F5F17B59EAF00779EF0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5BD4A696175D3AC700411866 /* OSFlurryiAdBannerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSFlurryiAdBannerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD4A699175D3AC700411866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BD4A69B175D3AC700411866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,10 +56,8 @@
 		5BD4A6CB175D3BDF00411866 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5BD4A6CD175D3BF300411866 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		5BD4A6D2175D3CC000411866 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		5BD4A6D3175D3CC000411866 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		5BD4A6D5175D3CC000411866 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
 		5BD4A6D6175D3CC000411866 /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
-		5BD4A6D7175D3CC000411866 /* libFlurryAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B921F6017B59EB000779EF0 /* Security.framework in Frameworks */,
 				5BD4A6CE175D3BF300411866 /* MediaPlayer.framework in Frameworks */,
 				5BD4A6CC175D3BDF00411866 /* StoreKit.framework in Frameworks */,
 				5BD4A6CA175D3BD500411866 /* SystemConfiguration.framework in Frameworks */,
@@ -71,8 +74,8 @@
 				5BD4A69A175D3AC700411866 /* UIKit.framework in Frameworks */,
 				5BD4A69C175D3AC700411866 /* Foundation.framework in Frameworks */,
 				5BD4A69E175D3AC700411866 /* CoreGraphics.framework in Frameworks */,
-				5BD4A6D8175D3CC000411866 /* libFlurry.a in Frameworks */,
-				5BD4A6D9175D3CC000411866 /* libFlurryAds.a in Frameworks */,
+				5B921F5C17B59E9300779EF0 /* libFlurry_4.2.3.a in Frameworks */,
+				5B921F5E17B59EA200779EF0 /* libFlurryAds_4.2.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 		5BD4A698175D3AC700411866 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B921F5F17B59EAF00779EF0 /* Security.framework */,
 				5BD4A6CD175D3BF300411866 /* MediaPlayer.framework */,
 				5BD4A6CB175D3BDF00411866 /* StoreKit.framework */,
 				5BD4A6C9175D3BD500411866 /* SystemConfiguration.framework */,
@@ -145,8 +149,8 @@
 		5BD4A6D1175D3CC000411866 /* Flurry */ = {
 			isa = PBXGroup;
 			children = (
+				5B921F5B17B59E9300779EF0 /* libFlurry_4.2.3.a */,
 				5BD4A6D2175D3CC000411866 /* Flurry.h */,
-				5BD4A6D3175D3CC000411866 /* libFlurry.a */,
 			);
 			path = Flurry;
 			sourceTree = "<group>";
@@ -154,9 +158,9 @@
 		5BD4A6D4175D3CC000411866 /* FlurryAds */ = {
 			isa = PBXGroup;
 			children = (
+				5B921F5D17B59EA200779EF0 /* libFlurryAds_4.2.3.a */,
 				5BD4A6D5175D3CC000411866 /* FlurryAdDelegate.h */,
 				5BD4A6D6175D3CC000411866 /* FlurryAds.h */,
-				5BD4A6D7175D3CC000411866 /* libFlurryAds.a */,
 			);
 			path = FlurryAds;
 			sourceTree = "<group>";

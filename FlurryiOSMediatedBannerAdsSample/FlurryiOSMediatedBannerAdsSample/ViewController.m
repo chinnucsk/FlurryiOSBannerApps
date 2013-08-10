@@ -15,6 +15,7 @@
 @end
 
 @implementation ViewController
+NSString *adSpaceName = @"MainBannerBottom";
 
 - (void)viewDidLoad
 {
@@ -30,7 +31,7 @@
     // Fetch and display banner ad for a given ad space.
     //    Note: Choose an adspace name that
     // will uniquely identifiy the ad's placement within your app
-    [FlurryAds fetchAndDisplayAdForSpace:@"MediatedBannerBottom" view:self.view size:BANNER_BOTTOM];
+    [FlurryAds fetchAndDisplayAdForSpace:adSpaceName view:self.view size:BANNER_BOTTOM];
 }
 
 - (BOOL) spaceShouldDisplay:(NSString*)adSpace interstitial:(BOOL) interstitial {
@@ -99,7 +100,7 @@
     [super viewWillDisappear:animated];
     
     // Remove the ad when view dissappears
-    [FlurryAds removeAdFromSpace:@"MediatedBannerBottom"];
+    [FlurryAds removeAdFromSpace:adSpaceName];
     
     // Reset delegate, if set earlier
     [FlurryAds setAdDelegate:nil];
